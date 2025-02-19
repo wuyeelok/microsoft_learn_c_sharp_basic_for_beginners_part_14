@@ -16,3 +16,5 @@ foreach (var name in names)
     Console.WriteLine($"Hello {name.ToLower()}!");
 }
 Console.WriteLine($"Index of Ana is: {names.IndexOf("Ana")}");
+
+Console.WriteLine($"Index of ZZZ is: {names.IndexOf("ZZZ")}");
